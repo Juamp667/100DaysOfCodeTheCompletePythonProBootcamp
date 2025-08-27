@@ -1,0 +1,1 @@
+This section is oriented to practicing OOP by creating a trainer and a pykemon (inspired of pokemon) class
