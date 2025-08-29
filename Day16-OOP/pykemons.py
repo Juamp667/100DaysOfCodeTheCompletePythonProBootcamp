@@ -3,7 +3,7 @@ from prettytable import PrettyTable
 import numpy as np
 
 #First lets define the pykemon class (InPascalCase)
-class  Pykemon():
+class  Pykemon:
 
     #The following function will be runned each time a new object of the class is created
     def __init__(self, name_:str, alias_:str=None):    #lvl:int=1, means that lvl must be an integer; and if not passed \\
@@ -52,7 +52,7 @@ class  Pykemon():
 
 
 #Analogously with the trainer class
-class Trainer():
+class Trainer:
     def __init__(self, name_):
         self.name = name_
         self.pykemons = []

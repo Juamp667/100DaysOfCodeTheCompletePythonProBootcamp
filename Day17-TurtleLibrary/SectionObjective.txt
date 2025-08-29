@@ -1,0 +1,4 @@
+turtle is a python library inspired on those robots which move with a pen in their back, painting in
+a blank sheet.
+
+It can be used to create very simple games and animations, what I'll do in the following sections
