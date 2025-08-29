@@ -77,7 +77,7 @@ win_width = 510
 win_height = 703
 win = t.Screen()
 win.setup(win_width,win_height)
-win.bgpic(picname="C:\\Users\\Juamp6.67\\Documents\\projects\\100DaysOfCodeTheCompletePythonProBootcamp\\Day17-TurtleLibrary\\myImplementation\\images\\titleScreen.gif")
+win.bgpic(picname="C:\\Users\\Juamp6.67\\Documents\\projects\\100DaysOfCodeTheCompletePythonProBootcamp\\Day17-TurtleLibrary\\JumpyVideogame\\images\\titleScreen.gif")
 win.onkey(fun=lambda window=win: init_game(window), key="space")
 win.listen()
 
@@ -88,7 +88,7 @@ global i_
 i_=0
 def update_TitleScreen():
     global i_
-    f = lambda n: f"C:\\Users\\Juamp6.67\\Documents\\projects\\100DaysOfCodeTheCompletePythonProBootcamp\\Day17-TurtleLibrary\\myImplementation\\images\\titleScreen\\frame_{str('000'+str(n))[-3:]}.gif"
+    f = lambda n: f"C:\\Users\\Juamp6.67\\Documents\\projects\\100DaysOfCodeTheCompletePythonProBootcamp\\Day17-TurtleLibrary\\JumpyVideogame\\images\\titleScreen\\frame_{str('000'+str(n))[-3:]}.gif"
     imax = 299
     if show_TitleScreen:
         win.bgpic(f(i_))
