@@ -16,7 +16,7 @@ Some screenshots:
 <div align="center">
   <img src="screenshots/titleScreen.jpg" width="200"/>
   <img src="screenshots/inGame.jpg" width="200"/>
-  <img src="/screenshots/winnerScreen.jpg" width="200"/>
+  <img src="/creenshots/winnerScreen.jpg" width="200"/>
 </div>
 
 ---
