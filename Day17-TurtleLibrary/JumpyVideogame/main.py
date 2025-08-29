@@ -8,7 +8,7 @@ show_TitleScreen=True
 
 def winnerScreen(win):
     global i_
-    f = lambda n: f"C:\\Users\\Juamp6.67\\Documents\\projects\\100DaysOfCodeTheCompletePythonProBootcamp\\Day17-TurtleLibrary\\myImplementation\\images\\winnerScreen\\frame_{str('000'+str(n))[-3:]}.gif"
+    f = lambda n: f"C:\\Users\\Juamp6.67\\Documents\\projects\\100DaysOfCodeTheCompletePythonProBootcamp\\Day17-TurtleLibrary\\JumpyVideogame\\images\\winnerScreen\\frame_{str('000'+str(n))[-3:]}.gif"
     imax = 299
     win.bgpic(f(i_))
     print(i_,imax)
@@ -22,7 +22,7 @@ def init_game(win):
     global show_TitleScreen,i_
     i_ = 0
     show_TitleScreen = False
-    win.bgpic(picname = "C:\\Users\\Juamp6.67\\Documents\\projects\\100DaysOfCodeTheCompletePythonProBootcamp\\Day17-TurtleLibrary\\myImplementation\\images\\bg_spikes.gif")
+    win.bgpic(picname = "C:\\Users\\Juamp6.67\\Documents\\projects\\100DaysOfCodeTheCompletePythonProBootcamp\\Day17-TurtleLibrary\\JumpyVideogame\\images\\bg_spikes.gif")
 
     #Initializing platforms
     y0 = -0.45*win.window_height()
