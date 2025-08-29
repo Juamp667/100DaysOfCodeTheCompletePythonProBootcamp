@@ -10,6 +10,7 @@ Although this library is mostly used for painting, I've managed to design a simp
 - Gravity physics
 - Object collision detection
 - Animations in titleScreen and when winning
+- OOP
 
 ---
 Some screenshots:
