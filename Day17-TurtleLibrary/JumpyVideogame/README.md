@@ -14,9 +14,9 @@ Although this library is mostly used for painting, I've managed to design a simp
 ---
 Some screenshots:
 <div align="center">
-  <img src="JumpyVideogame/screenshots/titleScreen.jpg" width="200"/>
-  <img src="JumpyVideogame/screenshots/inGame.jpg" width="200"/>
-  <img src="JumpyVideogame/screenshots/winnerScreen.jpg" width="200"/>
+  <img src="screenshots/titleScreen.jpg" width="200"/>
+  <img src="screenshots/inGame.jpg" width="200"/>
+  <img src="/screenshots/winnerScreen.jpg" width="200"/>
 </div>
 
 ---
